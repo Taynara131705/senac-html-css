@@ -1,0 +1,101 @@
+h3{
+    color: green;
+}
+
+ul{
+    border: 1px solid blue;
+    padding: 10px;
+}
+
+li{
+color: darkblue;
+}
+
+/* Classe */
+.Paragrafo{
+    background-color: #000000;
+    color: rgb(245, 248, 83);
+    padding: 5px;
+}
+
+/* Id */
+#titulo-com-id{
+    background-color: green;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* Regra de Ordem */
+
+h1{
+    border-bottom: 2px solid blue;
+}
+
+.class-titulo{
+    border-bottom: 3px solid red;
+}
+
+#id-titulo{
+    border-bottom: 3px solid black;
+}
+
+/* Nome das cores */
+.color-name{
+    color: crimson;
+}
+
+/* Cores RGB */
+
+.rgb{
+    color: rgb(255,0,0);
+}
+
+.rgb-misturado{
+    color: rgb(199, 21, 47);
+}
+
+.rgba{
+    color: rgba(100, 99, 45, 0.3);
+}
+
+/* Hexadecimal */
+
+.hex{
+    color: #55a398;
+}
+
+.hex-simplificado{
+    color: #a6e;
+}
+
+/* HSL */
+
+.hsl{
+    color: hsl(100, 20%, 50%);
+}
+
+
+/* Background color */
+
+.backgroundcolor{
+    background-color: #000;
+    color: gold;
+}
+
+.bg-2{
+    background-color: rgb(100, 50, 33);
+    color: #00ffaa;
+}
+
+/* Opacidade no Background Color */
+.bg-com-opacidade{
+    background-color: red;
+    opacity: 0.2;
+}
+
+/* Resolvendo o erro da opacidade na cor da letra */
+.bg-com-opacidade-2{
+    background-color: rgba(90, 100, 40, 0.2);
+    color: black;
+}
